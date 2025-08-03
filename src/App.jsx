@@ -1,15 +1,13 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import "./App.css";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="p-8 space-y-4">
-        
-      </div>
+      <ThemeToggle />
     </>
   );
 }

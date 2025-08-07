@@ -5,6 +5,7 @@ import BlurText from "../y/BlurText/BlurText";
 import LightRays from "../y/LightRays/LightRays";
 import Navbar from "./our/components/Navbar";
 import RotatingText from "../y/RotatingText/RotatingText";
+import Aurora from "../y/Aurora/Aurora";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div
+      {/* <div
         style={{
           width: "100%",
           height: "100dvh",
@@ -25,25 +26,20 @@ function App() {
           zIndex: -1,
         }}
       >
-        <LightRays
-          raysOrigin="top-center"
-          raysColor="#03dffc"
-          raysSpeed={1.5}
-          lightSpread={0.8}
-          rayLength={1.2}
-          followMouse={true}
-          mouseInfluence={0.1}
-          noiseAmount={0.1}
-          distortion={0.05}
-          className="custom-rays"
+        <Aurora
+          colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
         />
-      </div>
-      <div className="mx-auto w-[70%] max-sm:w-full my-2 px-2">
+      </div> */}
+      <div className="sticky top-0 z-50">
         <div>
           <Navbar />
         </div>
         <div className="">
-          <div className="flex items-center gap-2">
+          {/* <p className="text-5xl font-bold">dwbqjknld .mqwxiubkqj xliwqkhxsq</p> */}
+          {/* <div className="flex items-center gap-2">
             <p className="font-dynalight text-xs">WE</p>
             <RotatingText
               texts={["React", "Bits", "Is", "Cool!"]}
@@ -57,7 +53,7 @@ function App() {
               transition={{ type: "spring", damping: 30, stiffness: 400 }}
               rotationInterval={2000}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

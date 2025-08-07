@@ -1,6 +1,7 @@
 import React from "react";
 import AnimatedContent from "../../../y/AnimatedContent/AnimatedContent";
 import { ThemeToggle } from "../../components/theme-toggle";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   return (
@@ -16,12 +17,12 @@ const Navbar = () => {
       threshold={0.1}
       delay={0}
     >
-      <div className="flex justify-between items-center backdrop-blur-3xl border-1 p-4 rounded-lg bg-background/30">
+      <div className="flex justify-between items-center backdrop-blur-3xl p-4 px-6 bg-background/30">
         <div>Logo</div>
         <div className="flex gap-4">
-          <p className="font-dynalight text-xs">HOME</p>
-          <p className="font-dynalight text-xs">ABOUT</p>
-          <p className="font-dynalight text-xs">CONTACT</p>
+          <Button variant="ghost">Home</Button>
+          <Button variant="ghost">About</Button>
+          <Button variant="ghost">Contact</Button>
         </div>
         <div>
           <ThemeToggle />

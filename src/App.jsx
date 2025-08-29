@@ -6,6 +6,7 @@ import LightRays from "../y/LightRays/LightRays";
 import Navbar from "./our/components/Navbar";
 import RotatingText from "../y/RotatingText/RotatingText";
 import Aurora from "../y/Aurora/Aurora";
+import { FlipWords } from "@/components/ui/flip-words";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,6 +40,15 @@ function App() {
         </div>
         <div className="">
           {/* <p className="text-5xl font-bold">dwbqjknld .mqwxiubkqj xliwqkhxsq</p> */}
+          <div className="flex items-center gap-2 text-4xl font-bold justify-center">
+            <p className="text-neutral-600 dark:text-neutral-400">Build</p>
+            <FlipWords 
+              words={["amazing", "beautiful", "modern", "stunning", "incredible"]} 
+              duration={3000}
+              className="text-blue-600 dark:text-blue-400"
+            />
+            <p className="text-neutral-600 dark:text-neutral-400">websites</p>
+          </div>
           {/* <div className="flex items-center gap-2">
             <p className="font-dynalight text-xs">WE</p>
             <RotatingText

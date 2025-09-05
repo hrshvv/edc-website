@@ -112,7 +112,7 @@ function App() {
               <TeamCard
                 name="Ananya Mishra"
                 role="Technical Team Member"
-                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105139/Ananya_Mishra_jtl8dw.jpg"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757106502/Ananya_Mishra__ptthev.png"
               />
               <TeamCard
                 name="Anushka Srivastava"

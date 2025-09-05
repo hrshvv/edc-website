@@ -8,7 +8,7 @@ import {
 const TeamCard = ({ name, role , image}) => {
   return (
     <Popover>
-      <PopoverTrigger>
+      <PopoverTrigger className="text-left">
         <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-64 h-64 relative group">
           <img
             src={image}

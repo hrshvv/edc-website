@@ -89,6 +89,11 @@ function App() {
                 role="Technical Team Member"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757094310/1000010180_ysmz1o.jpg"
               />
+              <TeamCard
+                name="Harsh Verma"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757094310/1000010180_ysmz1o.jpg"
+              />
             </div>
           </div>
         </div>

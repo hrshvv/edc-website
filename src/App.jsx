@@ -7,6 +7,7 @@ import Navbar from "./our/components/navbar/Navbar";
 import RotatingText from "../y/RotatingText/RotatingText";
 import Aurora from "../y/Aurora/Aurora";
 import { FlipWords } from "@/components/ui/flip-words";
+import TeamCard from "./our/components/TeamCard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -64,6 +65,7 @@ function App() {
               rotationInterval={2000}
             />
           </div> */}
+          <TeamCard />
         </div>
       </div>
     </>

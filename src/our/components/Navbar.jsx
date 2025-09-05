@@ -21,8 +21,10 @@ const Navbar = () => {
         <div>Logo</div>
         <div className="flex gap-4">
           <Button variant="ghost">Home</Button>
+          <Button variant="ghost">Team</Button>
+          <Button variant="ghost">Events</Button>
           <Button variant="ghost">About</Button>
-          <Button variant="ghost">Contact</Button>
+
         </div>
         <div className="flex gap-2">
           <ThemeToggle />

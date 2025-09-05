@@ -101,57 +101,57 @@ function App() {
               />
               <TeamCard
                 name="Panna Tyagi"
-                role="Liasioning Team
-"               image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105140/20250514_121810_wrahh6.jpg"
+                role="Liasioning Team Head"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105140/20250514_121810_wrahh6.jpg"
                 />
               <TeamCard
                 name="Aditya Agarwal"
-                role="Technical Team Member"
+                role="General Secretary"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105138/Aditya_Agarwal_ezqijs.jpg"
               />
               <TeamCard
                 name="Ananya Mishra"
-                role="Technical Team Member"
+                role="Media and Networking Team "
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757106502/Ananya_Mishra__ptthev.png"
               />
               <TeamCard
                 name="Anushka Srivastava"
-                role="Technical Team Member"
+                role="Events and Training Team Head"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105138/Anushka_Srivastava_pdyof8.jpg"
               />
               <TeamCard
                 name="Daarim"
-                role="Technical Team Member"
+                role="Design Team Member"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105139/Daarim_wxbs4h.jpg"
               />
               <TeamCard
                 name="Isha"
-                role="Technical Team Member"
+                role="Marketing Team Member"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105140/IMG_1323_gfjhut.jpg"
               />
               <TeamCard
                 name="Shashank Sahu"
-                role="Technical Team Member"
+                role="Events and Training Team Member"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105140/IMG_20241215_200355_826_lqudce.webp"
               />
               <TeamCard
                 name="Kalyani Chaunwal"
-                role="Technical Team Member"
+                role="Content and Documentation Team Head"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105140/Kalyani_m8spfn.jpg"
               />
               <TeamCard
                 name="Krish Bhardwaj"
-                role="Technical Team Member"
+                role="Events and Training Team Member"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105140/Krish_Bhardwaj_jtkfsb.png"
               />
               <TeamCard
                 name="Lavanya Singh"
-                role="Technical Team Member"
+                role="Media and Networking Team Member"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105141/Lavanya_Singh_xv5dih.jpg"
               />
               <TeamCard
                 name="Luv Mangla"
-                role="Technical Team Member"
+                role="Marketing Team Head"
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_4:5,c_fill,g_face/v1757105141/LM_toe4zm.jpg"
               />
               

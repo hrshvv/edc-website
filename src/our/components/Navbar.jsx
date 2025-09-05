@@ -24,8 +24,9 @@ const Navbar = () => {
           <Button variant="ghost">About</Button>
           <Button variant="ghost">Contact</Button>
         </div>
-        <div>
+        <div className="flex gap-2">
           <ThemeToggle />
+          <Button >Connect</Button>
         </div>
       </div>
     </AnimatedContent>

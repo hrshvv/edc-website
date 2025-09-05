@@ -43,8 +43,14 @@ function App() {
           {/* <p className="text-5xl font-bold">dwbqjknld .mqwxiubkqj xliwqkhxsq</p> */}
           <div className="flex items-center gap-2 text-4xl font-bold justify-center">
             <p className="text-neutral-600 dark:text-neutral-400">Build</p>
-            <FlipWords 
-              words={["amazing", "beautiful", "modern", "stunning", "incredible"]} 
+            <FlipWords
+              words={[
+                "amazing",
+                "beautiful",
+                "modern",
+                "stunning",
+                "incredible",
+              ]}
               duration={3000}
               className="text-blue-600 dark:text-blue-400"
             />
@@ -65,7 +71,26 @@ function App() {
               rotationInterval={2000}
             />
           </div> */}
-          <TeamCard />
+          <div className="space-y-4">
+            <div className="flex gap-2 flex-wrap justify-center">
+              <Button variant="outline">Core Team</Button>
+              <Button variant="outline">Technical Team</Button>
+              <Button variant="outline">Outreach Team</Button>
+              <Button variant="outline">Design Team</Button>
+              <Button variant="outline">Content and Documentation Team</Button>
+              <Button variant="outline">Liasioning Team</Button>
+              <Button variant="outline">Events and Training Team</Button>
+              <Button variant="outline">Marketing Team</Button>
+              <Button variant="outline">Media and Networking Team</Button>
+            </div>
+            <div className="flex flex-wrap gap-4">
+              <TeamCard
+                name="Harsh Verma"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757094310/1000010180_ysmz1o.jpg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

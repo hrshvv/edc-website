@@ -30,7 +30,7 @@ const Navbar = () => {
           </Button>
         </div>
         
-        {/* Right Section - Theme Toggle, Mobile Menu */}
+        {/* Right Section - Theme Toggle, Mobile Menu, Connect Button */}
         <div className="flex items-center gap-2">
           <ThemeToggle />
           
@@ -38,6 +38,14 @@ const Navbar = () => {
           <div className="lg:hidden">
             <DrawerTabs />
           </div>
+          
+          {/* Connect Button - Desktop Only */}
+          <Button 
+            size="sm" 
+            className="hidden lg:inline-flex"
+          >
+            Connect
+          </Button>
         </div>
       </div>
     </div>

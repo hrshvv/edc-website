@@ -90,10 +90,51 @@ function App() {
                 image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757094310/1000010180_ysmz1o.jpg"
               />
               <TeamCard
-                name="Harsh Verma"
-                role="Technical Team Member"
-                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757094310/1000010180_ysmz1o.jpg"
+                name="Utkarsh Srivastava"
+                role="Technical Team Head"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757103197/Utkarsh_Srivastava_fuhddo.jpg"
               />
+              <TeamCard
+                name="Ujjwal Kaushik"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757103483/Ujjwal_Kaushik_mrpial.jpg"
+              />
+              <TeamCard
+                name="Panna Tyagi"
+                role="Liasioning Team
+"               image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face,z_2/v1757103618/20250514_121810_ksspw2.jpg"
+                />
+              <TeamCard
+                name="Aditya Agarwal"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757103801/Aditya_Agarwal_clhaya.jpg"
+              />
+              <TeamCard
+                name="Ananya Mishra"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757103875/Ananya_Mishra_oyq8rs.jpg"
+              />
+              <TeamCard
+                name="Anushka Srivastava"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757103984/Anushka_Srivastava_ntmhwa.jpg"
+              />
+              <TeamCard
+                name="Daarim"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757104078/Daarim_hucxpc.jpg"
+              />
+              <TeamCard
+                name="Isha"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757104264/IMG_1323_ljt83p.jpg"
+              />
+              <TeamCard
+                name="Shashank Sahu"
+                role="Technical Team Member"
+                image="https://res.cloudinary.com/dh8cqlngr/image/upload/ar_1:1,c_fill,g_face/v1757104316/IMG_20241215_200355_826_yaxrek.webp"
+              />
+
             </div>
           </div>
         </div>

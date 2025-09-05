@@ -7,37 +7,40 @@ import DrawerTabs from "./DrawerTabs";
 
 const Navbar = () => {
   return (
-    <AnimatedContent
-      distance={5}
-      direction="vertical"
-      reverse={false}
-      duration={0.8}
-      ease="power3.out"
-      initialOpacity={0}
-      animateOpacity
-      scale={1}
-      threshold={0.1}
-      delay={0}
-    >
-      <div className="flex justify-between items-center backdrop-blur-3xl p-4 px-6 bg-background/30">
-        <div>
+    <div className="w-full max-w-7xl mx-auto">
+      <div className="flex justify-between items-center backdrop-blur-[4px] p-3 px-4 sm:p-4 sm:px-6 border rounded-xl bg-background/30">
+        {/* Logo Section */}
+        <div className="flex-shrink-0">
           <Logo />
         </div>
-        <div className="hidden md:flex gap-4">
-          <Button variant="ghost">Home</Button>
-          <Button variant="ghost">Team</Button>
-          <Button variant="ghost">Events</Button>
-          <Button variant="ghost">About</Button>
+        
+        {/* Desktop Navigation */}
+        <div className="hidden lg:flex gap-2 xl:gap-4">
+          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
+            Home
+          </Button>
+          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
+            Team
+          </Button>
+          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
+            Events
+          </Button>
+          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
+            About
+          </Button>
         </div>
-        <div className="flex gap-2">
-          <div className="md:hidden">
+        
+        {/* Right Section - Theme Toggle, Mobile Menu */}
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          
+          {/* Mobile Drawer */}
+          <div className="lg:hidden">
             <DrawerTabs />
           </div>
-          <ThemeToggle />
-          <Button>Connect</Button>
         </div>
       </div>
-    </AnimatedContent>
+    </div>
   );
 };
 

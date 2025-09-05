@@ -1,9 +1,11 @@
 import React from "react";
-import AnimatedContent from "../../../y/AnimatedContent/AnimatedContent";
-import { ThemeToggle } from "../../components/theme-toggle";
+import AnimatedContent from "../../../../y/AnimatedContent/AnimatedContent";
+import { ThemeToggle } from "../../../components/theme-toggle";
 import { Button } from "@/components/ui/button";
+import Logo from "./Logo";
 
 const Navbar = () => {
+
   return (
     <AnimatedContent
       distance={5}
@@ -18,13 +20,14 @@ const Navbar = () => {
       delay={0}
     >
       <div className="flex justify-between items-center backdrop-blur-3xl p-4 px-6 bg-background/30">
-        <div>Logo</div>
+        <div>
+          <Logo />
+        </div>
         <div className="flex gap-4">
-          <Button variant="ghost">Home</Button>
+        <Button variant="ghost">Home</Button>
           <Button variant="ghost">Team</Button>
           <Button variant="ghost">Events</Button>
           <Button variant="ghost">About</Button>
-
         </div>
         <div className="flex gap-2">
           <ThemeToggle />

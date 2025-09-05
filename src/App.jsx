@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import BlurText from "../y/BlurText/BlurText";
 import LightRays from "../y/LightRays/LightRays";
-import Navbar from "./our/components/Navbar";
+import Navbar from "./our/components/navbar/Navbar";
 import RotatingText from "../y/RotatingText/RotatingText";
 import Aurora from "../y/Aurora/Aurora";
 import { FlipWords } from "@/components/ui/flip-words";

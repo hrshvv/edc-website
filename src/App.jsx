@@ -72,18 +72,36 @@ function App() {
             />
           </div> */}
           <div className="space-y-4">
-            <div className="flex gap-2 flex-wrap justify-center">
-              <Button variant="outline">Core Team</Button>
-              <Button variant="outline">Technical Team</Button>
-              <Button variant="outline">Outreach Team</Button>
-              <Button variant="outline">Design Team</Button>
-              <Button variant="outline">Content and Documentation Team</Button>
-              <Button variant="outline">Liasioning Team</Button>
-              <Button variant="outline">Events and Training Team</Button>
-              <Button variant="outline">Marketing Team</Button>
-              <Button variant="outline">Media and Networking Team</Button>
+            <div className="flex gap-2 overflow-x-auto px-2">
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Core Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Technical Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Outreach Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Design Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Content and Documentation Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Liasioning Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Events and Training Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Marketing Team
+              </Button>
+              <Button variant="outline" className="text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap flex-shrink-0">
+                Media and Networking Team
+              </Button>
             </div>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex gap-2 sm:gap-3 md:gap-4 lg:gap-6 overflow-x-auto md:flex-wrap md:justify-center w-full px-2 sm:px-4 md:px-6 lg:px-8">
               <TeamCard
                 name="Harsh Verma"
                 role="Technical Team Member"

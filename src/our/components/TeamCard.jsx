@@ -8,7 +8,7 @@ import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin, IoShareSocialSharp } fro
 import { Button } from "@/components/ui/button";
 const TeamCard = ({ name, role, image }) => {
   return (
-    <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-64 h-80 relative group">
+    <div className="bg-white rounded-3xl overflow-hidden min-w-64 min-h-80 relative group">
       <div className="w-64 h-80 overflow-hidden">
         <img
           src={image}
@@ -26,7 +26,7 @@ const TeamCard = ({ name, role, image }) => {
               </p>
             </div>
             <Popover>
-              <PopoverTrigger className="text-left">
+              <PopoverTrigger asChild>
                 <Button
                   variant="ghost"
                   size="icon"

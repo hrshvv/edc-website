@@ -3,9 +3,9 @@ import AnimatedContent from "../../../../y/AnimatedContent/AnimatedContent";
 import { ThemeToggle } from "../../../components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import Logo from "./Logo";
+import DrawerTabs from "./DrawerTabs";
 
 const Navbar = () => {
-
   return (
     <AnimatedContent
       distance={5}
@@ -23,15 +23,18 @@ const Navbar = () => {
         <div>
           <Logo />
         </div>
-        <div className="flex gap-4">
-        <Button variant="ghost">Home</Button>
+        <div className="hidden md:flex gap-4">
+          <Button variant="ghost">Home</Button>
           <Button variant="ghost">Team</Button>
           <Button variant="ghost">Events</Button>
           <Button variant="ghost">About</Button>
         </div>
         <div className="flex gap-2">
+          <div className="md:hidden">
+            <DrawerTabs />
+          </div>
           <ThemeToggle />
-          <Button >Connect</Button>
+          <Button>Connect</Button>
         </div>
       </div>
     </AnimatedContent>

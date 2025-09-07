@@ -4,7 +4,7 @@ import TeamCard from "../components/TeamCard";
 
 const Team = () => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 pt-32">
       <div className="flex gap-2 overflow-x-auto px-2">
         <Button
           variant="outline"

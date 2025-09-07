@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Drawer,
   DrawerClose,
@@ -24,8 +25,16 @@ const DrawerTabs = () => {
           <DrawerDescription>Choose a page to navigate to</DrawerDescription>
         </DrawerHeader>
         <div className="flex flex-col gap-2 p-4">
-          <Button variant="ghost" className="justify-start">Home</Button>
-          <Button variant="ghost" className="justify-start">Team</Button>
+          <DrawerClose asChild>
+            <Link to="/">
+              <Button variant="ghost" className="justify-start w-full">Home</Button>
+            </Link>
+          </DrawerClose>
+          <DrawerClose asChild>
+            <Link to="/team">
+              <Button variant="ghost" className="justify-start w-full">Team</Button>
+            </Link>
+          </DrawerClose>
           <Button variant="ghost" className="justify-start">Events</Button>
           <Button variant="ghost" className="justify-start">About</Button>
           

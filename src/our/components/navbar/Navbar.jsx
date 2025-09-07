@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AnimatedContent from "../../../../y/AnimatedContent/AnimatedContent";
 import { ThemeToggle } from "../../../components/theme-toggle";
 import { Button } from "@/components/ui/button";
@@ -16,12 +17,16 @@ const Navbar = () => {
         
         {/* Desktop Navigation */}
         <div className="hidden lg:flex gap-2 xl:gap-4">
-          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
-            Home
-          </Button>
-          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
-            Team
-          </Button>
+          <Link to="/">
+            <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
+              Home
+            </Button>
+          </Link>
+          <Link to="/team">
+            <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
+              Team
+            </Button>
+          </Link>
           <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
             Events
           </Button>

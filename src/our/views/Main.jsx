@@ -1,7 +1,5 @@
 import React from "react";
 import { FlipWords } from "@/components/ui/flip-words";
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { div } from "framer-motion/client";
 import PixelBlast from "@/components/PixelBlast";
 
 const Main = () => {

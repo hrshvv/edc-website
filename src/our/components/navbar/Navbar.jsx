@@ -55,7 +55,31 @@ const Navbar = () => {
           </div>
 
           {/* Connect Button - Desktop Only */}
-          <Button size="sm" className="hidden lg:inline-flex">
+          <Button 
+            size="sm" 
+            className="hidden lg:inline-flex"
+            onClick={() => {
+              const footer = document.getElementById('footer');
+              if (footer) {
+                footer.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+                // Add highlight effect to social links
+                setTimeout(() => {
+                  const socialLinks = document.querySelectorAll('.social-link');
+                  socialLinks.forEach((link, index) => {
+                    setTimeout(() => {
+                      link.classList.add('highlight-social');
+                      setTimeout(() => {
+                        link.classList.remove('highlight-social');
+                      }, 1000);
+                    }, index * 200);
+                  });
+                }, 500);
+              }
+            }}
+          >
             Connect
           </Button>
         </div>

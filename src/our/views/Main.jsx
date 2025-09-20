@@ -1,6 +1,7 @@
 import React from "react";
 import { FlipWords } from "@/components/ui/flip-words";
 import PixelBlast from "@/components/PixelBlast";
+import Footer from "../components/Footer";
 import { 
   FaCode, 
   FaPalette, 
@@ -11,7 +12,9 @@ import {
   FaArrowRight,
   FaLaptopCode,
   FaUsers,
-  FaRocket
+  FaRocket,
+  FaHandshake,
+  FaGlobe
 } from "react-icons/fa";
 import { 
   HiSparkles, 
@@ -255,9 +258,70 @@ const Main = () => {
                 </div>
               </div>
             </div>
+
+            {/* Outreach Team Card */}
+            <div className="group relative bg-gradient-to-br from-white to-teal-50 dark:from-neutral-900 dark:to-teal-950/20 rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-neutral-200 dark:border-neutral-800 hover:border-teal-500 dark:hover:border-teal-500 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-400 rounded-t-3xl"></div>
+              
+              <div className="absolute top-4 right-4 text-teal-500/20 group-hover:text-teal-500/40 transition-all duration-300">
+                <FaGlobe className="w-6 h-6" />
+              </div>
+              
+              <div className="relative z-10">
+                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                  <FaGlobe className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-neutral-800 dark:text-neutral-100 mb-4 group-hover:text-teal-500 transition-colors duration-300">Outreach Team</h3>
+                <p className="text-neutral-600 dark:text-neutral-400 mb-6 leading-relaxed text-sm">
+                  Expanding EDC's reach, building partnerships with external organizations, and connecting with the broader entrepreneurial ecosystem.
+                </p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center text-teal-500 font-semibold group-hover:translate-x-2 transition-transform duration-300 cursor-pointer">
+                    <span className="text-sm">Explore Team</span>
+                    <FaArrowRight className="w-4 h-4 ml-2 group-hover:ml-3 transition-all duration-300" />
+                  </div>
+                  <div className="text-teal-500/30 group-hover:text-teal-500 transition-colors duration-300">
+                    <FaGlobe className="w-5 h-5" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Liaisoning Team Card */}
+            <div className="group relative bg-gradient-to-br from-white to-indigo-50 dark:from-neutral-900 dark:to-indigo-950/20 rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-neutral-200 dark:border-neutral-800 hover:border-indigo-500 dark:hover:border-indigo-500 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 rounded-t-3xl"></div>
+              
+              <div className="absolute top-4 right-4 text-indigo-500/20 group-hover:text-indigo-500/40 transition-all duration-300">
+                <FaHandshake className="w-6 h-6" />
+              </div>
+              
+              <div className="relative z-10">
+                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                  <FaHandshake className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-neutral-800 dark:text-neutral-100 mb-4 group-hover:text-indigo-500 transition-colors duration-300">Liaisoning Team</h3>
+                <p className="text-neutral-600 dark:text-neutral-400 mb-6 leading-relaxed text-sm">
+                  Facilitating communication between teams, coordinating internal processes, and ensuring smooth collaboration across all departments.
+                </p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center text-indigo-500 font-semibold group-hover:translate-x-2 transition-transform duration-300 cursor-pointer">
+                    <span className="text-sm">Explore Team</span>
+                    <FaArrowRight className="w-4 h-4 ml-2 group-hover:ml-3 transition-all duration-300" />
+                  </div>
+                  <div className="text-indigo-500/30 group-hover:text-indigo-500 transition-colors duration-300">
+                    <FaHandshake className="w-5 h-5" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

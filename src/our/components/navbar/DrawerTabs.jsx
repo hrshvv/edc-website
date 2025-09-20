@@ -35,8 +35,16 @@ const DrawerTabs = () => {
               <Button variant="ghost" className="justify-start w-full">Team</Button>
             </Link>
           </DrawerClose>
-          <Button variant="ghost" className="justify-start">Events</Button>
-          <Button variant="ghost" className="justify-start">About</Button>
+          <DrawerClose asChild>
+            <Link to="/events">
+              <Button variant="ghost" className="justify-start w-full">Events</Button>
+            </Link>
+          </DrawerClose>
+          <DrawerClose asChild>
+            <Link to="/about">
+              <Button variant="ghost" className="justify-start w-full">About</Button>
+            </Link>
+          </DrawerClose>
           
           {/* Connect Button for Mobile */}
           <div className="pt-3 mt-2 border-t border-border">

@@ -40,9 +40,14 @@ const Navbar = () => {
               Events
             </Button>
           </Link>
-          <Button variant="ghost" className="text-sm xl:text-base px-3 xl:px-4">
-            About
-          </Button>
+          <Link to="/about">
+            <Button
+              variant="ghost"
+              className="text-sm xl:text-base px-3 xl:px-4"
+            >
+              About
+            </Button>
+          </Link>
         </div>
 
         {/* Right Section - Theme Toggle, Mobile Menu, Connect Button */}

@@ -4,6 +4,7 @@ import Navbar from "./our/components/navbar/Navbar";
 import Team from "./our/views/Team";
 import Main from "./our/views/Main";
 import Events from "./our/views/Events";
+import About from "./our/views/About";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/team" element={<Team />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

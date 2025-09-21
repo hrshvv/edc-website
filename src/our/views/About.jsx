@@ -1,5 +1,4 @@
 import React from "react";
-import PixelBlast from "../../components/PixelBlast";
 import { FlipWords } from "../../components/ui/flip-words";
 
 const About = () => {
